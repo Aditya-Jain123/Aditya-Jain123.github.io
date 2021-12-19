@@ -1,0 +1,50 @@
+<html>
+ <style>
+
+     body{
+
+        background-color: teal;
+        font-size: 40px;
+        text-align: center;
+        color:white;
+        margin-top: 200px;
+     }
+
+     button{
+
+        font-size: 20px;
+        background-color:rgb(238, 238,0);
+        color:black;
+        width:100px;
+        height: 50px;
+     }
+ </style>
+
+<body>
+
+  <p>Are You A Fool ?</p>
+    <button id="changeTxt1" onmouseover="mouseOver()">
+        Yes
+    </button>
+    <button id="changeTxt2"onmouseover="mouseOver2()">
+        No
+    </button>
+    <p id ="demo"></p> 
+</body>
+<script>
+
+
+
+   
+
+function mouseOver(){
+    document.getElementById("changeTxt1").innerText = "Yes" ;
+    document.getElementById("changeTxt2").innerText = "No" ;
+    }
+
+    function mouseOver2(){
+    document.getElementById("changeTxt2").innerText = "Yes" ;
+    document.getElementById("changeTxt1").innerText = "No" ;
+    }
+</script>
+</html>
